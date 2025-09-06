@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JavaScript Mini Projects Lab</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 40px;
+        }
+        section {
+            margin-bottom: 50px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h2 {
+            margin-top: 0;
+            color: #444;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 8px;
+        }
+        button {
+            margin-left: 10px;
+            padding: 8px 15px;
+            font-size: 1em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            margin-top: 15px;
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+        ul li {
+            padding: 5px 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+        img {
+            max-width: 200px;
+            display: block;
+            margin-top: 15px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .counter-display {
+            font-size: 1.5em;
+            margin: 15px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Mini Projects Lab</h1>
+
+    <section id="project1">
+        <h2>Project 1: Add Items to a List</h2>
+        <input type="text" id="itemInput" placeholder="Type item here" />
+        <button id="addItemBtn">Add</button>
+        <ul id="itemList"></ul>
+    </section>
+
+    <section id="project2">
+        <h2>Project 2: Random Background Color</h2>
+        <button id="colorBtn">Change Background Color</button>
+    </section>
+
+    <section id="project3">
+        <h2>Project 3: Simple Image Toggle</h2>
+        <button id="toggleImageBtn">Toggle Image</button>
+        <img id="toggleImage" src="https://via.placeholder.com/200?text=Image+1" alt="Toggle Image" />
+    </section>
+
+    <section id="project4">
+        <h2>Project 4: Mini Counter with + / – Buttons</h2>
+        <div class="counter-display" id="counterValue">0</div>
+        <button id="decrementBtn">-</button>
+        <button id="incrementBtn">+</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
